@@ -1,5 +1,9 @@
 # 2021-Spring-Batch-Service
 
+Ref: https://docs.spring.io/spring-batch/docs/current/reference/html/spring-batch-intro.html
+* https://docs.spring.io/spring-batch/docs/current/reference/html/index.html
+* 
+
 #### What Is a Batch Job?
 * A batch job is a computer program or set of programs processed in batch mode. 
 This means that a sequence of commands to be executed by the operating system is listed in a file (often called a batch file, command file, or 
