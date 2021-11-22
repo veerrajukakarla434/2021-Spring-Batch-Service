@@ -55,6 +55,8 @@ shell script) and submitted for execution as a single unit.
 * The following figure illustrates the relationships of these components:
 
 ![](https://www.petrikainulainen.net/wp-content/uploads/springbatchjob.png)
+ * **OR**
+![](https://www.javainuse.com/batch-min.JPG)
 
 * **Summary**
 * This blog post has taught you five things:
