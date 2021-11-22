@@ -13,3 +13,13 @@ shell script) and submitted for execution as a single unit.
 * As you can see, this batch job has only one step. This is perfectly fine if your batch job has only one logical task. For example, if you are implementing an import job that reads information from an input file and writes it to the database, your job has only one logical task.
 
 * However, some batch jobs have more than one logical task. For example, you might have to implement a batch job that imports information from an input file and creates an export file that's exported to other applications. In other words, your batch job has two logical tasks. This means that it has two steps as well.
+
+* It seems that I have to rewrite my definition. The final version is:
+
+* **A batch job consists of one or more steps. Each step is responsible of completing one logical task. Every step reads input data, processes the input data, and writes the processed data to the configured output. If the batch job has more than one step, the output of a step is often used as an input of the next step.**
+
+* The following figure illustrates a batch job that has two steps:
+![batchjobwithmultiplesteps](https://www.petrikainulainen.net/wp-content/uploads/batchjobwithmultiplesteps.png "batchjobwithmultiplesteps")
+
+#### How Can Spring Batch Help Us?
+
