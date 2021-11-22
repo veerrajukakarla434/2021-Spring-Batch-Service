@@ -33,4 +33,21 @@ shell script) and submitted for execution as a single unit.
 
 * It writes comprehensive log to the used database. This log contains the metadata of each job and step execution, and it's extremely useful if you have to troubleshoot a failed batch job. Because the log is written to a database, you can access it by using a database client.
 
+* You should now understand that Spring Batch solves the problems caused by handwritten batch jobs. Let's move on and take a quick look at the key components of a Spring Batch job.
 
+## The Key Components of a Spring Batch Job
+* A Spring Batch job consists of the following components:
+
+* **Job :** The Job represents a single Spring Batch job. Each job can have one or more steps.
+
+* **Step :** The Step represents an independent logical task (i.e. import information from an input file). Each step belongs to one job.
+
+* **ItemReader :** The ItemReader reads the input data and provides the found items one by one. An ItemReader belongs to one step and each step must have one ItemReader.
+
+* **ItemProcessor :** The ItemProcessor transforms items into a form that's understood by the ItemWriter one item at a time. An ItemProcessor belongs to one step and each step can have one ItemProcessor.
+
+* **ItemWritter :** The ItemWriter writes an information of an item to the output one item at a time. An ItemWriter belongs to one step and each step must have one ItemWriter
+
+* The following figure illustrates the relationships of these components:
+
+![](https://www.petrikainulainen.net/wp-content/uploads/springbatchjob.png)
