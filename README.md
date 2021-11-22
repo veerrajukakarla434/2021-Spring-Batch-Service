@@ -53,9 +53,12 @@ shell script) and submitted for execution as a single unit.
 * **ItemWritter :** The ItemWriter writes an information of an item to the output one item at a time. An ItemWriter belongs to one step and each step must have one ItemWriter
 
 * The following figure illustrates the relationships of these components:
+* Diagram One: 
 
-![](https://www.petrikainulainen.net/wp-content/uploads/springbatchjob.png)
- * **OR**
+* ![](https://www.petrikainulainen.net/wp-content/uploads/springbatchjob.png)
+
+* Diagram Two: 
+
 ![](https://www.javainuse.com/batch-min.JPG)
 
 * **Summary**
