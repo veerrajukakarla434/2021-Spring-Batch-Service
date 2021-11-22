@@ -23,3 +23,14 @@ shell script) and submitted for execution as a single unit.
 
 #### How Can Spring Batch Help Us?
 
+ * Spring Batch solves all problems. It provides the following features that helps you to solve these problems:
+ 
+ * It helps you to structure your code in a clean way by providing the infrastructure that's used to implement, configure, and run batch jobs.
+
+* It uses so called chunk oriented processing where items are processed one by one and the transaction is committed when the chunk size is met. In other words, it provides you an easy way to manage the size of your transactions.
+
+* It provides proper error handling. For example, you can skip items if an exception is thrown and configure retry logic that's used to determine whether your batch job should retry the failed operation. You can also configure the logic that's used to decide if your transaction should be rolled back. 
+
+* It writes comprehensive log to the used database. This log contains the metadata of each job and step execution, and it's extremely useful if you have to troubleshoot a failed batch job. Because the log is written to a database, you can access it by using a database client.
+
+
