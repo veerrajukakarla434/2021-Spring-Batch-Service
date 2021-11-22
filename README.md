@@ -55,3 +55,13 @@ shell script) and submitted for execution as a single unit.
 * The following figure illustrates the relationships of these components:
 
 ![](https://www.petrikainulainen.net/wp-content/uploads/springbatchjob.png)
+
+* **Summary**
+* This blog post has taught you five things:
+
+* A batch job consists of one or more steps. Each step is responsible of completing one logical task. Every step reads input data, processes the input data, and writes the processed data to the configured output. If the batch job has more than one step, the output of a step is often used as an input of the next step.
+* You should use Spring Batch because it solves the problems caused by handwritten batch jobs.
+* A Spring batch Job can have one or more steps.
+* A Step must have one ItemReader and ItemWriter.
+* A Step can have one ItemProcessor.
+
