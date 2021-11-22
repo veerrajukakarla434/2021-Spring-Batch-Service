@@ -2,7 +2,7 @@
 
 Ref: https://docs.spring.io/spring-batch/docs/current/reference/html/spring-batch-intro.html
 * https://docs.spring.io/spring-batch/docs/current/reference/html/index.html
-* 
+ 
 
 #### What Is a Batch Job?
 * A batch job is a computer program or set of programs processed in batch mode. 
@@ -54,11 +54,8 @@ shell script) and submitted for execution as a single unit.
 
 * The following figure illustrates the relationships of these components:
 * Diagram One: 
-
 * ![](https://www.petrikainulainen.net/wp-content/uploads/springbatchjob.png)
-
 * Diagram Two: 
-
 ![](https://www.javainuse.com/batch-min.JPG)
 
 * **Summary**
